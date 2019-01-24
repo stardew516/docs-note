@@ -8,7 +8,7 @@
    - [git拉取代码报错：Permission denied (publickey) 解决方案](blog/git403.md)
    - [堆、栈、堆栈、队列、数组、链表](blog/heapsStacksHeapstacksQueuesArraysChain.md)
    - [hexo+css创建自己的blog（搭建）](blog/hexoCssBuild.md)
-   - [hexo语法使用手册](blog/hexoCssDocument.md)
+   - [hexo语法使用手册](blog/hexoCssManual.md)
    - [hexo+css遇到的unexpected token问题](blog/hexoCssIssue.md)
    - [仿写weex使用手册](blog/hexoCssWeexDocument.md)
    - [鉴别数组](blog/isarray.md)

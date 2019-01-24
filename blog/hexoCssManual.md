@@ -1,5 +1,5 @@
 ---
-title: hexo-css-document
+title: hexo-css-manual
 date: 2017/09/05
 tags: blog
 categories: 博客
@@ -120,12 +120,11 @@ _下划线斜体_
 
 {% img [box-model] http://weex.apache.org/cn/references/images/css-boxmodel.png 377 340 weex 盒模型 %}
 ```
-效果：
-![图1. 我的背景](../assets/avator.jpeg "Title")
-
+效果：  
+![图1. 我的背景](../assets/avator.jpeg "Title")  
 ![图2. 我的头像](https://sfault-avatar.b0.upaiyun.com/267/966/2679662993-581186b9d2f8a_big64 "Title")
 
-注：效果不显示
+注：效果不显示  
 {% img [box-model] http://weex.apache.org/cn/references/images/css-boxmodel.png 377 340 weex 盒模型 %}
 
 
