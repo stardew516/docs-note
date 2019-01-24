@@ -24,13 +24,13 @@ categories: 博客
 ```
  <!-- more -->
 效果:
-1. 第一点
-2. 第二点
-3. 第三点
-* 星号列表
-+ 加号列表
-- 减号列表
-
+1. 第一点  
+2. 第二点  
+3. 第三点 
+ 
+• 星号列表  
+• 加号列表  
+• 减号列表  
 
 ### 2. 块注释
 
@@ -79,9 +79,9 @@ categories: 博客
 {% link text url [external] [title] %}
 你好,我是{% link 百度 https://www.baidu.com/ 搜索  度娘 %}.
 ```
-效果：
-[这是一个绝对路径的链接](https://hexo.io/zh-cn/docs/writing.html)
-[这是一个相对路径的链接](/document/2017/08/07/hello-world/)
+效果：  
+[这是一个绝对路径的链接](https://hexo.io/zh-cn/docs/writing.html)  
+[这是一个相对路径的链接](/document/2017/08/07/hello-world/)  
 
 注：效果不显示
 你好,我是{% link 百度 https://www.baidu.com/ 搜索  度娘 %}.
@@ -92,8 +92,8 @@ categories: 博客
 **双星加粗**
 __双下划线加粗__
 ```
-效果：
-**双星加粗**
+效果：  
+**双星加粗**  
 __双下划线加粗__
 
 
@@ -103,16 +103,16 @@ __双下划线加粗__
 *星号斜体*
 _下划线斜体_
 ```
-效果：
-*星号斜体*
-_下划线斜体_
+效果：  
+*星号斜体*  
+_下划线斜体_  
 
 
 
 ### 7. 图片
 
 ```
-![图1. 我最爱的炮兵](/document/assert/img.jpg "Title")
+![图1. 我的背景](../assets/avator.jpeg "Title")
 
 ![图2. 我的头像](https://sfault-avatar.b0.upaiyun.com/267/966/2679662993-581186b9d2f8a_big64 "Title")
 
@@ -121,7 +121,7 @@ _下划线斜体_
 {% img [box-model] http://weex.apache.org/cn/references/images/css-boxmodel.png 377 340 weex 盒模型 %}
 ```
 效果：
-![图1. 我最爱的炮兵](/document/assert/img.jpg "Title")
+![图1. 我的背景](../assets/avator.jpeg "Title")
 
 ![图2. 我的头像](https://sfault-avatar.b0.upaiyun.com/267/966/2679662993-581186b9d2f8a_big64 "Title")
 
@@ -154,7 +154,7 @@ console.log('hello world!')
 ##### 五级 H5
 ###### 六级 H6
 ```
-效果：
+效果：  
 方法1: - 和 =
 一级标题
 ===
