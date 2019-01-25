@@ -39,22 +39,22 @@ categories: 博客
 > 区块引用
 
 或者:
-{% blockquote %}
+`{% blockquote %}`
 普通的引用
-{% endblockquote %}
+`{% endblockquote %}`  
 
-嵌套引用
+嵌套引用  
 > 一层引用
 >> 两层引用
 ```
-效果:
+效果:  
 > 区块引用
 
 注：blockquote效果不显示
-{% blockquote %}
+`{% blockquote %}`
 普通的引用
 下一行
-{% endblockquote %}
+`{% endblockquote %}`
 
 > 一层引用
 >> 两层引用
