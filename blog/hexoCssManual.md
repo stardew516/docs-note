@@ -39,9 +39,9 @@ categories: 博客
 > 区块引用
 
 或者:
-```{% blockquote %}```
+{% blockquote %}
 普通的引用
-```{% endblockquote %}```  
+{% endblockquote %}
 
 嵌套引用  
 > 一层引用
@@ -180,7 +180,7 @@ console.log('hello world!')
 ```
 
 注：效果不显示
-{% jsfiddle stardew/ffnm6Lsd/1/ %}
+```{% jsfiddle stardew/ffnm6Lsd/1/ %}```
 
 
 
