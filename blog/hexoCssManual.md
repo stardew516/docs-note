@@ -39,9 +39,9 @@ categories: 博客
 > 区块引用
 
 或者:
-`{% blockquote %}`
+```{% blockquote %}```
 普通的引用
-`{% endblockquote %}`  
+```{% endblockquote %}```  
 
 嵌套引用  
 > 一层引用
@@ -51,10 +51,10 @@ categories: 博客
 > 区块引用
 
 注：blockquote效果不显示
-`{% blockquote %}`
+```{% blockquote %}```
 普通的引用
 下一行
-`{% endblockquote %}`
+```{% endblockquote %}```
 
 > 一层引用
 >> 两层引用
@@ -85,7 +85,7 @@ categories: 博客
 [这是一个相对路径的链接](/document/2017/08/07/hello-world/)  
 
 注：效果不显示
-你好,我是{% link 百度 https://www.baidu.com/ 搜索  度娘 %}.
+你好,我是```{% link 百度 https://www.baidu.com/ 搜索  度娘 %}```.
 
 ### 5. 加粗
 
@@ -126,7 +126,7 @@ _下划线斜体_
 ![图2. 我的头像](https://sfault-avatar.b0.upaiyun.com/267/966/2679662993-581186b9d2f8a_big64 "Title")
 
 注：效果不显示  
-{% img [box-model] http://weex.apache.org/cn/references/images/css-boxmodel.png 377 340 weex 盒模型 %}
+```{% img [box-model] http://weex.apache.org/cn/references/images/css-boxmodel.png 377 340 weex 盒模型 %}```
 
 
 ### 8. 代码
@@ -194,7 +194,7 @@ console.log('hello world!')
 ```
 
 注：效果不显示
-{% iframe https://www.baidu.com/ 500 300 %}
+```{% iframe https://www.baidu.com/ 500 300 %}```
 
 
 ### 12. 表格
