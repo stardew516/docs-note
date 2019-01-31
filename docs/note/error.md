@@ -142,9 +142,14 @@ parentNode.innerHTML = thisNode.outerHTML
 
 解决：因为chrome调试之初需要连chrome服务器，所以存在翻墙问题，翻墙后就可以查看dom了
 
->
+> mysql连接报错：ERROR 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)   
 
->
+解决：系统偏好设置-》最下面mysql-》进入-》点击initialize database-》输入密码，连解时也输入这个密码。
+
+
+> mysql连接池错误：`Client does not support authentication protocol requested by server; consider upgrading MySQL client`  
+
+解决：navicat 新建查询输入：`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '你的密码'`
 
 >
 
