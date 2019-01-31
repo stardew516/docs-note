@@ -151,7 +151,7 @@ parentNode.innerHTML = thisNode.outerHTML
 
 解决：navicat 新建查询输入：`ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '你的密码'`
 
->
+> 
 
 >
 
